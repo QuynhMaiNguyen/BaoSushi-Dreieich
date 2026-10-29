@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /*.zip$
+
+Sitemap: https://baosushibistro.de/sitemap.xml

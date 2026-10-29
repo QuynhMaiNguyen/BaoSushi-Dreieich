@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="presentation">
+  <rect width="800" height="600" fill="#e9e7e2"/>
+  <g fill="#dedad3">
+    <rect x="34" y="28" width="150" height="110" rx="4"/>
+    <rect x="212" y="20" width="130" height="118" rx="4"/>
+    <rect x="372" y="30" width="90" height="96" rx="4"/>
+    <rect x="492" y="24" width="150" height="104" rx="4"/>
+    <rect x="672" y="18" width="100" height="120" rx="4"/>
+    <rect x="30" y="176" width="128" height="120" rx="4"/>
+    <rect x="188" y="180" width="178" height="112" rx="4"/>
+    <rect x="398" y="168" width="110" height="132" rx="4"/>
+    <rect x="540" y="172" width="106" height="120" rx="4"/>
+    <rect x="678" y="178" width="94" height="108" rx="4"/>
+    <rect x="34" y="342" width="160" height="104" rx="4"/>
+    <rect x="224" y="336" width="118" height="112" rx="4"/>
+    <rect x="376" y="348" width="150" height="96" rx="4"/>
+    <rect x="556" y="340" width="90" height="110" rx="4"/>
+    <rect x="678" y="334" width="96" height="116" rx="4"/>
+    <rect x="30" y="486" width="140" height="90" rx="4"/>
+    <rect x="202" y="484" width="168" height="94" rx="4"/>
+    <rect x="402" y="482" width="120" height="96" rx="4"/>
+    <rect x="554" y="490" width="120" height="88" rx="4"/>
+    <rect x="704" y="480" width="70" height="98" rx="4"/>
+  </g>
+  <g fill="#cfd8c6">
+    <rect x="214" y="336" width="118" height="66" rx="6"/>
+    <rect x="554" y="172" width="106" height="52" rx="6"/>
+    <rect x="34" y="486" width="140" height="44" rx="6"/>
+  </g>
+  <g fill="#d3dde0">
+    <rect x="376" y="348" width="150" height="96" rx="8"/>
+  </g>
+  <g stroke="#fbfaf8" stroke-linecap="round" fill="none">
+    <path d="M0 154h800" stroke-width="20"/>
+    <path d="M0 314h800" stroke-width="16"/>
+    <path d="M0 462h800" stroke-width="18"/>
+    <path d="M180 0v600" stroke-width="18"/>
+    <path d="M356 0v600" stroke-width="14"/>
+    <path d="M528 0v600" stroke-width="16"/>
+    <path d="M660 0v600" stroke-width="12"/>
+    <path d="M0 580h800" stroke-width="10"/>
+    <path d="M0 78h800" stroke-width="9"/>
+  </g>
+  <g stroke="#e2ded7" stroke-width="4" fill="none">
+    <path d="M180 0v600"/>
+    <path d="M356 0v600"/>
+    <path d="M0 154h800"/>
+    <path d="M0 314h800"/>
+  </g>
+  <g fill="#c9c5bd" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="1.5">
+    <text x="600" y="228">SPRENDLINGEN</text>
+    <text x="52" y="446">FRANKFURTER STR.</text>
+  </g>
+  <circle cx="430" cy="300" r="9" fill="#a81e23"/>
+  <circle cx="430" cy="300" r="20" fill="#a81e23" opacity="0.18"/>
+</svg>
