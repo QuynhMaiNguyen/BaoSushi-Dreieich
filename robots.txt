@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*.zip$
 
-Sitemap: http://baosushi-dreieich.de/sitemap.xml
+Sitemap: https://baosushi-dreieich.de/sitemap.xml
