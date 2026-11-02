@@ -238,13 +238,6 @@ button {
   object-fit: contain;
 }
 
-.brand span {
-  font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
-}
-
 .site-nav {
   display: flex;
   align-items: center;
@@ -1303,11 +1296,6 @@ button {
   object-fit: contain;
 }
 
-.footer__brand strong {
-  font-size: 1.05rem;
-  font-weight: 600;
-}
-
 .footer__tagline {
   margin: 14px 0 0;
   color: var(--contrast-2);
@@ -1436,10 +1424,6 @@ button {
   .nav-backdrop.is-open {
     opacity: 1;
     visibility: visible;
-  }
-
-  .brand span {
-    font-size: 0.9rem;
   }
 
   .header-inner {
