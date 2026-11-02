@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://baosushibistro.de/</loc>
+    <loc>http://baosushi-dreieich.de/</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://baosushibistro.de/speisekarte.html</loc>
+    <loc>http://baosushi-dreieich.de/speisekarte.html</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://baosushibistro.de/kontakt.html</loc>
+    <loc>http://baosushi-dreieich.de/kontakt.html</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://baosushibistro.de/impressum.html</loc>
+    <loc>http://baosushi-dreieich.de/impressum.html</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
