@@ -39,6 +39,14 @@
     return node;
   };
 
+  /* Allergen and additive codes as a superscript, like in the printed menu. */
+  const appendAllergens = (node, codes) => {
+    if (!codes) return;
+    const sup = make("sup", "menucard__allergens", codes);
+    sup.title = `Allergene und Zusatzstoffe: ${codes}`;
+    node.append(" ", sup);
+  };
+
   /* Tabs ----------------------------------------------------------------- */
   data.tabs.forEach((tab, tabIndex) => {
     const firstPage = pages.findIndex((page) => page.tabIndex === tabIndex);
@@ -69,13 +77,22 @@
       const column = make("div", "menucard__column");
       groups.forEach((group) => {
         const groupEl = make("div", "menucard__group");
-        groupEl.appendChild(make("h3", "", group.title));
+        const title = make("h3", "", group.title);
+        if (!group.desc) appendAllergens(title, group.allergens);
+        groupEl.appendChild(title);
+        if (group.desc) {
+          const desc = make("p", "menucard__desc", group.desc);
+          appendAllergens(desc, group.allergens);
+          groupEl.appendChild(desc);
+        }
 
         const list = make("ul", "menucard__list");
         group.items.forEach((item) => {
           const li = make("li", "menucard__item");
           const row = make("div", "menucard__row");
-          row.appendChild(make("span", "menucard__name", item.name));
+          const name = make("span", "menucard__name", item.name);
+          appendAllergens(name, item.allergens);
+          row.appendChild(name);
           if (item.price) row.appendChild(make("span", "menucard__price", item.price));
           li.appendChild(row);
           if (item.sub || item.desc) {

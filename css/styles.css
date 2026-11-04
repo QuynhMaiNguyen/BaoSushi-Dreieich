@@ -951,6 +951,11 @@ button {
   gap: 14px;
 }
 
+.cta__actions--center {
+  max-width: 30rem;
+  justify-content: center;
+}
+
 .cta__logo {
   width: min(340px, 100%);
   margin-left: auto;
@@ -1238,6 +1243,31 @@ button {
   font-size: 0.8rem;
   line-height: 1.4;
   color: var(--contrast-3);
+}
+
+.menucard__desc {
+  margin: 10px 0 4px;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--contrast-3);
+}
+
+.menucard__allergens {
+  font-size: 0.62rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--contrast-3);
+}
+
+.menucard__legend {
+  margin-top: clamp(20px, 2.5vw, 28px);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--contrast-3);
+}
+
+.menucard__legend p {
+  margin: 0;
 }
 
 .menucard__status {
